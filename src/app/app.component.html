@@ -1,0 +1,39 @@
+<ngx-loading-bar [color]="'red'" [includeSpinner]="false"></ngx-loading-bar>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a id="NewsHeading" class="navbar-brand" routerLink="">Latest News</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      +<span class="navbar-toggler-icon"></span>
+    </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" routerLink="">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" routerLink="tech">Tech News</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" routerLink="business"
+            >Business News</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" routerLink="entertainment"
+            >Entertainment News</a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<router-outlet></router-outlet>
+<div class="">
+  <footer class="mt-3">
+    <p class="text-center colors-red">@RAUNI</p>
+    <p class="text-center colors-red">&copy; 2021 News Web</p>
+  </footer>
+</div>

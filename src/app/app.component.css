@@ -1,0 +1,23 @@
+#NewsHeading {
+    font-size: 35px;
+    /* color: white; */
+}
+
+a {
+    font-weight: bold;
+    /* color: azure; */
+}
+
+nav {
+    /* background-color: black; */
+    color: red;
+    /* background: rgb(255, 255, 255);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 8%, rgba(255, 255, 255, 1) 16%, rgba(189, 189, 189, 1) 23%, rgba(255, 255, 255, 1) 60%, rgba(201, 201, 201, 1) 79%, rgba(193, 193, 193, 1) 83%, rgba(177, 177, 177, 1) 100%); */
+}
+
+.bar {
+    color: rgb(196, 226, 25);
+}
+
+
+/*  */
